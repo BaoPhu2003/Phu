@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+#wrapper{
+    position: relative;
+}
+.color-white{
+    color: white !important;
+}
+.color-yellow{
+    color: #fabb26;
+}
+.full-width{
+    width: 100%;
+}
+.half{
+    width: 45%;
+}
+#header{
+    top: 0;
+    left:0;
+    right: 0;
+    padding: 20px 5%;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 10;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 31px;
+}
+.icon{
+    width: 25%;
+    height: 31px;
+    padding-right: 30px;
+}
+.logo{
+    color: #090808;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.call_us{
+    color: #ffb607;
+}
+#nav{
+    color: black;
+    list-style: none;
+    width: 50%;
+}
+#nav ul{
+    justify-content: space-around;
+}
+#nav ul li:hover, #login:hover, #header .icon-search:hover{
+    border-bottom: #ffb607 4px solid;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    
+}
+.list-none{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.pos-absolute{
+    position: absolute;
+}
+.pos-relative{
+    position: relative;
+}
+#slider{
+    position: relative;
+    background-image: url("/Background.png");  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-top: 60%;
+}
+.translateX-center{
+    left: 50%;
+    transform: translateX(-50%);
+}   
+.text-center{
+    text-align: center;
+}
+.slider-header{
+    top: 12%;
+}
+.funiture{
+    font-size: 6em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090808;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+#slider .text{  
+    width: 686px;
+    height: 61px;
+    font-size: 0.9em;
+    line-height: 22px;
+    color: #0c0c0c;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+#slider .button-contact{
+    position: absolute;
+    top: 88%;
+    background-color:#ffb607;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 51px;
+    text-align: center;
+    line-height: 51px;
+    color: aliceblue;
+    border-radius: 4px;
+    border: #ffb607 1px solid;
+}
+#slider .button-contact:hover{
+    background: none;
+    border-color: white;
+}
+.upp{
+    text-transform: uppercase;
+}
+#slider .arrow{
+    justify-content: space-between;
+    top:50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+#slider .arrow-left, #slider .arrow-right{
+    width: 50px;
+    height: 100px;
+    background-color: #090808;
+    padding: 0 12px;
+}
+#slider .arrow-left{
+    border-radius: 0 50px 50px 0;
+}
+#slider .arrow-right{
+    border-radius: 50px 0 0 50px;
+}
+#slider .right, .left{
+    color: white;
+    line-height: 100px !important;
+}
+#slider .arrow-right:hover, #slider .arrow-left:hover{
+    background-color: #ffb607;
+}
+#content{
+    height: 655px;
+    background-color:white  ;
+    position: relative;
+}
+.header-content{
+    font-size: 2em;
+    line-height: 31px;
+    color: #090808;
+    font-weight: bolder;
+    font-family: "Poppins";
+}
+.content-header{
+    padding-bottom: 3%;
+}
+.content-header .text{
+    font-size: 1em;
+    line-height: 31px;
+    color: #090808;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding: 1em 0;
+}
+.form{
+    width:80%;
+    margin: 0 auto;
+    padding: 5%;
+}
+.funitures{
+    font-size: 1em;
+    line-height: 31px;
+    color: #090808;
+    font-weight:bold ;
+}
+#content .content-form{
+    width:20% ;
+}
+.content-icon{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    
+}
+.content-icon .button{
+    font-size: 0.8em;
+    width: 120px;
+    height: 38px;
+    border-radius: 2px;
+    background-color: #ffb507;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 1em auto;
+}
+.content-icon .button:hover{
+    background-color: black;
+    color: white;
+}
+.padd{
+    margin-top: 1em;
+}
+.about-us{
+    background-color: #ffb507;
+}
+.half .button{
+    width: 160px;
+    height: 53px;
+    border-radius: 6px;
+    background-color: #070201;
+    font-size: 1em;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 0;
+}
+.half .button:hover{
+    background-color: white;
+    color: black;
+}
+.half .content-header{
+    width: 80%;
+}
+.content-img .header-img{
+    font-size: 1.1em;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #fabb26;
+    font-weight: 700;
+    font-family: "Open Sans";
+    padding: 1% 0;
+}
+.content-img .furni-items{
+    width: 48%;
+}
+.content-img .text-img{
+    width: 100%;
+    height: 86px;
+    font-size: 1.112em;
+    line-height: 26px;
+    color: #121111;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.furni-items .search-item{
+    width: 10%;
+    margin: 0 45%;
+    width: 3em;
+    background-color: #fabb26;
+    border-radius: 50%;
+    top:50%;
+    transform: translateY(-50%);
+    padding-left: auto;
+    display: none;
+}
+.furni-items .full-width:hover + .search-item{
+    display: block;
+}
+.furni-items .full-width:hover{
+    opacity: 0.8;
+}
+.furni-items .search-item .icon-search{
+    line-height: 3em;
+}
+.img-background{
+    background-image: url("/kitchen_background.png");
+    width: 100%;
+    background-size: 100% 100%;
+}
+.opacity-background-yellow{
+    background-color: #fabb26;
+    opacity: 0.89;
+}
+.img-background .button{
+    width: 170px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 1em;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bolder;
+    font-family: "Open Sans";
+    text-align: center;
+    margin:1em auto 0 auto;
+}
+.img-background .button:hover{
+    background-color:gainsboro;
+    color:#000000;
+}
+.img-background .text-content{
+    font-size: 0.9em;
+    margin-bottom: 4%;
+}
+.our-project .img-1{
+    background-image: url("/becca.png");
+}
+.our-project .background-opacity{
+    opacity: 0.788;
+    width: 90%;
+    height: 90%;
+    border-radius: 19px;
+    background-color: #ffb607;
+    top: 5%;
+    left:5%;
+    display: none;
+}
+.our-project .form-img:hover .background-opacity{
+    display: block;
+}
+.our-project .background-opacity .view-more:hover{
+    opacity: 0.7;
+    background-color:#000000;
+}
+.our-project .background-opacity .view-more{
+    border-style: ridge;
+    margin: 40% 30%;
+    padding: 1em;
+    font-size: 0.8em;
+}
+.our-project .img-2{
+    background-image: url("/hall.png");   
+}
+.our-project .img-3{
+    background-image: url("/staircase.png");   
+}
+.our-project .form-img{
+    width: 32%;
+    padding-top: 30%;
+    background-size: 140% 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.our-project .img .text{
+    top: 85%;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+.our-project .arrow-left, .our-project .arrow-right{
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    line-height: 50px;
+}
+.our-project .arrow .fa-solid{
+    width: 100%;   
+}
+.our-project .arrow-left:hover, .our-project .arrow-right:hover{
+    background-color:#fabb26;
+}
+.our-project .arrow{
+    top: 55%; 
+    margin: 0 5%;
+    width: 90%;
+}
+.our-project{
+    margin: 0 auto;
+}
+.what-is-say .img-1{
+    background-image: url("/img-1.png");
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.what-is-say .img-2{
+    background-image: url("/img-2.png");    
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.what-is-say .items-img{
+    width: 50%;
+    min-height: fit-content;
+    border-style: solid ;
+    padding: 1%;
+}
+.what-is-say .content-item{
+    padding-left: 3%;
+}
+.what-is-say .text-item{
+    padding: 1%;
+    opacity: 0.722;
+    font-size: 1.1em;
+    line-height: 1em;
+    color: #191919;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.what-is-say .header-item{
+    font-size: 1.1em;
+    color: #191919;
+    font-weight: bolder;
+    font-family: "Roboto";
+}
+.what-is-say .fa-quote-left{
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.what-is-say .items-right{
+    margin-top: 30px;
+}
+.what-is-say .button-circle{
+    padding-top: 10%;
+    width: 12%;
+    justify-content: space-around;
+}
+.what-is-say .circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fabb26;
+}
+.what-is-say .circle:hover{
+    background-color: #000000;
+}
+.last-content{
+    background-image: url("./kitchen.png");
+    background-size: cover;
+}
+.last-content .form-input{
+    display: block;
+    padding: 15px;
+    margin: 30px 0;
+    width: 240%;
+    font-size: 0.9em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.last-content .message{
+    padding: 40px 15px;
+}
+.last-content .img{
+    width: 45%;
+    background-image: url("./becca.png");
+    background-color: #ffffff;
+    background-size: 120% 130%;
+    background-position: center;
+    margin: 30px 0;
+    filter: drop-shadow(0 0 40.5px rgba(3,3,3,0.24));
+}
+.last-content .header-items{
+    color: #ffffff;
+    font-size: 1.7em;
+}
+.last-content .button{
+    border: solid 1px white;
+    width: 11%;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+}
+.last-content .button:hover{
+    background-color: black;
+    color: white;
+    border: black 1px solid;
+}
+.opacity-background-black{
+    background-color:#373736;
+    opacity: 0.961;
+    color: #fefefe;
+}
+.opacity-background-black .header-text{
+    font-size: 1.6em;
+    padding-bottom: 20px;
+}
+.opacity-background-black .form-items{
+    width: 21%;
+}
+.opacity-background-black .let-design{
+    font-weight: bolder;
+    font-size: 2em;
+}
+.opacity-background-black .enter-email{
+    border-bottom-style: ridge;
+    margin-left: 60%;
+    margin-right: 0%;
+}
+.opacity-background-black .email{
+    background: none;
+    border: none;
+    outline: none;
+}
+.opacity-background-black .subcribe{
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+.opacity-background-black .content-items{
+    width:70%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+#footer {
+    padding: 1%;
+}
